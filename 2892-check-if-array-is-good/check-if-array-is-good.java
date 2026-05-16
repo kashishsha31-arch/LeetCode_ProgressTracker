@@ -5,7 +5,7 @@ class Solution {
         int len = nums.length;
         Arrays.sort(nums);
         
-        // The maximum n value is len - 1
+        // The maximum n value is len - 1 since from ques we know l=n+1 for our base case given array
         int n = len - 1;
         
         //for our case of 1
